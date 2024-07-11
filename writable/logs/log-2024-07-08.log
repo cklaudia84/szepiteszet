@@ -1,0 +1,901 @@
+CRITICAL - 2024-07-08 15:45:37 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 15:56:10 --> Error: Call to undefined method App\Controllers\Appointment::buildCalendar()
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 15:57:08 --> Error: Undefined constant "App\Controllers\Functions"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 15:57:28 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Functions.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH\Controllers\Appointment.php(56): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 15:57:54 --> Error: Class "App\Controllers\Functions" not found
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 16:06:08 --> Error: Class "CodeIgniter\Helpers\Functions" not found
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 16:07:15 --> Error: Class "App\Helpers\Functions" not found
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 16:13:56 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 6.
+ 1 APPPATH\Views\appointment.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(60): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 16:14:33 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 6.
+ 1 APPPATH\Views\appointment.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(60): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 17:44:10 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 16.
+ 1 APPPATH\Views\appointment.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(59): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 17:46:01 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 23.
+ 1 APPPATH\Views\appointment.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(59): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 17:46:20 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 23.
+ 1 APPPATH\Views\appointment.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(59): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 17:46:22 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 23.
+ 1 APPPATH\Views\appointment.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(59): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 17:48:11 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 16.
+ 1 APPPATH\Views\appointment.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(59): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:02:12 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 APPPATH\Views\book.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:02:59 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 APPPATH\Views\book.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:03:24 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:03:57 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:04:15 --> ParseError: syntax error, unexpected token "=>", expecting ")"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Appointment.php(53): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:04:41 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:04:54 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:04:56 --> Error: Array callback must have exactly two elements
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 68.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:06:31 --> ErrorException: Undefined array key "date"
+[Method: POST, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 20.
+ 1 APPPATH\Controllers\Appointment.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:09:32 --> ErrorException: Undefined variable $post
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:09:45 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:09:47 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:10:04 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 18:30:58 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 13.
+ 1 APPPATH\Controllers\Appointment.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 20:55:08 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 14.
+ 1 APPPATH\Views\appointment.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(60): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 20:58:57 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 20:59:00 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:01:48 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:01:51 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:02:52 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:02:54 --> ErrorException: Undefined variable $date
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-07-08 21:04:06 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Program Files\Ampps\www\szepiteszet\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Program Files\Ampps\www\szepiteszet\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Program Files\Ampps\www\szepiteszet\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Program Files\Ampps\www\szepiteszet\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\Program Files\Ampps\www\szepiteszet\system\Model.php(791): CodeIgniter\BaseModel->insert()
+#7 C:\Program Files\Ampps\www\szepiteszet\app\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+#8 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(933): App\Controllers\Appointment->index()
+#9 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Program Files\Ampps\www\szepiteszet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Program Files\Ampps\www\szepiteszet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\Program Files\Ampps\www\szepiteszet\public\index.php(57): CodeIgniter\Boot::bootWeb()
+#14 {main}
+CRITICAL - 2024-07-08 21:04:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: appointment]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:04:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:04:06 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-07-08 21:04:50 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Program Files\Ampps\www\szepiteszet\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Program Files\Ampps\www\szepiteszet\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Program Files\Ampps\www\szepiteszet\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Program Files\Ampps\www\szepiteszet\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\Program Files\Ampps\www\szepiteszet\system\Model.php(791): CodeIgniter\BaseModel->insert()
+#7 C:\Program Files\Ampps\www\szepiteszet\app\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+#8 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(933): App\Controllers\Appointment->index()
+#9 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Program Files\Ampps\www\szepiteszet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Program Files\Ampps\www\szepiteszet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\Program Files\Ampps\www\szepiteszet\public\index.php(57): CodeIgniter\Boot::bootWeb()
+#14 {main}
+CRITICAL - 2024-07-08 21:04:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: appointment]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:04:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:04:50 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-07-08 21:04:54 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\Program Files\Ampps\www\szepiteszet\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Program Files\Ampps\www\szepiteszet\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Program Files\Ampps\www\szepiteszet\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Program Files\Ampps\www\szepiteszet\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Program Files\Ampps\www\szepiteszet\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\Program Files\Ampps\www\szepiteszet\system\Model.php(791): CodeIgniter\BaseModel->insert()
+#7 C:\Program Files\Ampps\www\szepiteszet\app\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+#8 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(933): App\Controllers\Appointment->index()
+#9 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\Program Files\Ampps\www\szepiteszet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Program Files\Ampps\www\szepiteszet\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\Program Files\Ampps\www\szepiteszet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\Program Files\Ampps\www\szepiteszet\public\index.php(57): CodeIgniter\Boot::bootWeb()
+#14 {main}
+CRITICAL - 2024-07-08 21:04:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: appointment]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 5 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:04:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 7 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:04:54 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert()
+ 8 APPPATH\Controllers\Appointment.php(37): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:06:21 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:06:58 --> TypeError: Unsupported operand types: string + array
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 59.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:07:10 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:07:16 --> TypeError: Unsupported operand types: string + array
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 59.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(53): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:07:25 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 4 APPPATH\Views\book.php(59): form_hidden()
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Appointment.php(53): view()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:08:14 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:08:17 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:08:55 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:08:56 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:08:57 --> TypeError: form_input(): Argument #2 ($value) must be of type string, int given, called in C:\Program Files\Ampps\www\szepiteszet\system\Helpers\form_helper.php on line 126
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 146.
+ 1 SYSTEMPATH\Helpers\form_helper.php(126): form_input()
+ 2 SYSTEMPATH\Helpers\form_helper.php(130): form_hidden()
+ 3 APPPATH\Views\book.php(59): form_hidden()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\Appointment.php(53): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:09:21 --> TypeError: form_hidden(): Argument #3 ($recursing) must be of type bool, array given, called in C:\Program Files\Ampps\www\szepiteszet\app\Views\book.php on line 59
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 109.
+ 1 APPPATH\Views\book.php(59): form_hidden()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:09:22 --> TypeError: form_hidden(): Argument #3 ($recursing) must be of type bool, array given, called in C:\Program Files\Ampps\www\szepiteszet\app\Views\book.php on line 59
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 109.
+ 1 APPPATH\Views\book.php(59): form_hidden()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:09:23 --> TypeError: form_hidden(): Argument #3 ($recursing) must be of type bool, array given, called in C:\Program Files\Ampps\www\szepiteszet\app\Views\book.php on line 59
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 109.
+ 1 APPPATH\Views\book.php(59): form_hidden()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:09:23 --> TypeError: form_hidden(): Argument #3 ($recursing) must be of type bool, array given, called in C:\Program Files\Ampps\www\szepiteszet\app\Views\book.php on line 59
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 109.
+ 1 APPPATH\Views\book.php(59): form_hidden()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:09:25 --> TypeError: form_hidden(): Argument #3 ($recursing) must be of type bool, array given, called in C:\Program Files\Ampps\www\szepiteszet\app\Views\book.php on line 59
+[Method: GET, Route: appointment]
+in SYSTEMPATH\Helpers\form_helper.php on line 109.
+ 1 APPPATH\Views\book.php(59): form_hidden()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:10:31 --> ErrorException: Undefined array key "day"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 17.
+ 1 APPPATH\Views\book.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:10:34 --> ErrorException: Undefined array key "day"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 17.
+ 1 APPPATH\Views\book.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-08 21:11:04 --> ErrorException: Undefined array key "day"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 17.
+ 1 APPPATH\Views\book.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(53): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()

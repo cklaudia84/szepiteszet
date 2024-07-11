@@ -1,0 +1,575 @@
+*
+{
+    margin-top: 0;
+    color: rgb(71, 24, 24)
+}
+
+@font-face 
+{
+    font-family: 'Kalam-regular';
+    src: url('../fonts/Kalam-Regular.ttf'); 
+}
+@font-face 
+{
+    font-family: 'Kalam-light';
+    src: url('../fonts/Kalam-light.ttf');
+}
+@font-face
+{
+    font-family: 'Kalam-bold';
+    src: url('../fonts/Kalam-Bold.ttf'); 
+}
+
+a
+{
+    color: rgb(180, 8, 100);
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(114, 6, 64);
+    text-decoration: underline;
+}
+button .hover
+{
+    text-decoration: none;
+}
+body
+{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Kalam-regular', sans-serif;
+    line-height: 1.5;
+}
+header
+{
+    background-color: rgb(226, 191, 146);
+    padding: 15px;
+    border-bottom: 3px double rgb(148, 64, 64);
+}
+    header h1
+    {
+        font-size: 500%;
+        text-shadow: 6px 5px 5px rgb(180, 100, 100);
+        letter-spacing: 3px;
+        border-bottom: 8px double rgb(180, 100, 100);
+        border-radius: 10px;
+        padding-bottom: 5%;
+    }
+    header q
+    {
+        font-size: 150%;
+        text-shadow: 2px 2px 3px rgb(180, 100, 100);
+        font-style: italic;
+    }
+    header .header .text0
+    {
+        max-width: 37vw;
+        align-items: center;
+        margin: auto;
+        margin-left: 10vw;
+        justify-content: center;
+    }
+    header img
+    {
+        max-height: 25vw;
+        display: inline;
+    }
+    header .header
+    {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 1%;
+        background-image: url(../media/makeup.jpg);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: 25vw;
+        animation: change 35s 2s infinite ease;
+    }
+    .texts
+    {
+        width: 20vw;
+        margin-right: 3.3vw;
+        vertical-align: middle;
+        height: max-content;
+        animation: change 35s infinite ease;
+    }
+    .text, .text2, .text3, .text4
+    { 
+        width: 20vw;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 1vw;
+        animation: change2 35s 2s infinite ease;
+        opacity: 0;
+    }
+    .text2
+    {
+        animation-delay: 8.75s;
+    }
+    .text3
+    {
+        animation-delay: 17.5s;
+    }
+    .text4
+    {
+        animation-delay: 26.25s;
+    }
+    .texts a
+    {
+        color: rgb(226, 217, 217);
+        font-size: 120%;
+        text-align: center;
+    }
+    .texts a:hover
+    {
+        font-size: 125%;
+        text-decoration: underline;
+        color: white;
+    }
+
+    @keyframes change 
+    {
+        0% { background-image: url(../media/beauty.jpg)}
+        25% { background-image: url(../media/makeup.jpg)}
+        50% { background-image: url(../media/wax.jpg)}
+        75% { background-image: url(../media/tattoo.jpeg)}
+        100% { background-image: url(../media/beauty.jpg)}
+    } 
+    @keyframes change2
+    {
+        0% { opacity: 1 } 
+        25% { opacity: 0 }
+    }
+
+nav ul
+{  
+    border-bottom: 3px double rgb(148, 64, 64);
+    display: flex;
+    list-style: none;
+    padding: 1.5vh;
+}
+nav li
+{
+    width: 100%;
+    text-align: center;
+}
+nav a
+{
+    font-family: 'Kalam-bold';
+    padding: 2vh 1.5vh;
+    font-size: 130%;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(180, 18, 105);
+    text-shadow: 2px 2px 2px rgb(185, 177, 181);
+}
+nav a:hover
+{
+    color: rgb(114, 6, 64);
+    text-decoration: none;
+    
+}
+nav button
+{
+    background-color: rgb(245, 214, 174);
+    border-color: rgb(226, 191, 146);
+    box-shadow: 3px 3px 6px 1px rgb(180, 100, 100);
+    width: 95%;
+    padding: 0.5vh
+}
+nav button:hover
+{
+    background-color: rgb(226, 191, 146);
+}
+.contain
+{
+    max-width: 90%;
+    margin: auto;
+    display: flex
+}
+.contain2
+{
+    margin-right: 10vw
+}
+hr
+{
+    width: 95%;
+    border-color: rgb(148, 64, 64);
+    text-align: center;
+}
+.indent
+{
+    text-indent: 4%;
+}
+#center
+{
+    text-align: center;
+}
+main, aside
+{
+    margin: auto;
+    margin-top: 3vw;
+}
+main
+{
+    padding-right: 5%;
+    width: 60%
+}
+main section
+{
+    padding-bottom: 2%;
+   
+}
+main section, p
+{
+     margin-left: 2%;
+}
+main p, aside p
+{
+    text-align: justify
+}
+aside
+{
+    width: 40%;
+    margin-left: 0
+}
+aside section
+{
+    background-color: rgb(226, 191, 146);
+    padding: 2vw;
+    margin-bottom: 2vw;
+    border: 3px double rgb(148, 64, 64);
+    border-radius: 10px;
+}
+h1, h2, h3, h4
+{
+    color: rgb(10, 5, 5)
+}
+#calender tr
+{
+    margin: auto;
+}
+footer
+{
+    background-color: rgb(226, 191, 146);
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 3px double rgb(148, 64, 64);
+}
+    footer section
+    {
+        padding-top: 20px;
+    }
+    footer img
+    {
+        height: 170px
+    }
+    footer ul
+    {
+        list-style: none;
+        display: flex;
+        margin-bottom: 3px;
+    }
+    footer li
+    {
+        text-align: center;
+        padding: 10px;
+        
+    }
+    footer a
+    {
+        margin-top: 50px;
+        color: rgb(180, 8, 100);
+    }
+    footer h4
+    {
+        padding-top: 20px;
+    }
+    footer p
+    {
+        font-family: "Kalam-light";
+        margin: auto;
+    }
+    footer a, i 
+    {
+        transition: 0.3s;
+    }
+
+    footer a:hover, i:hover
+    {
+        color: rgb(114, 6, 64);
+    }
+    .action:hover
+    {
+        text-decoration: none
+    }
+    
+ form div
+ {
+    max-width: 500px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px 0;
+    margin-bottom: 15px;
+    margin: auto;
+    text-align: center;
+    align-items: center
+}
+form div:not(.check) input,
+form select,
+form textarea
+{
+	border: 1px solid #ddd;
+	background: #f4f4f4;
+	padding: 8px 15px;
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+}
+
+form input, form select
+{
+height: 50px;
+font-size: 24px;
+text-align: center;
+}
+form input[type="submit"]
+{   
+        max-width: 25%;
+	border: 0;
+	background: #968993;
+	color: #291841;
+	text-transform: uppercase;
+	padding: 10px 20px;
+        margin: 20px;
+	cursor: pointer;
+}
+form input[type="submit"]:hover
+{
+    background: #888;
+    color: #fff
+}
+input[type="checkbox"] 
+{
+    background-color: initial;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+    height: 25px;
+    width: 25px;
+}   
+
+ #services, #services td
+ {
+     text-align: center;
+     background: bisque;
+     background: rgb(240, 214, 175);
+     
+ }
+ #services th
+ {
+     background: rgb(224, 191, 147);
+ }
+ .gallery ul
+ {
+    display: flex;
+    list-style: none;
+ }
+ .gallery a:hover
+ {
+     text-decoration: none;
+ }
+ 
+ #backtop 
+ {
+    padding: 1vw;
+    position: fixed;
+    left:auto;right: 20px;top:auto;bottom: 20px;
+    outline: none;
+    overflow:hidden;
+    text-align:center;
+    height:6vh;
+    width:5vw;
+    line-height:40px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:all 0.3s linear;
+    z-index:999999;
+    font-size: 300%;
+    opacity:1;
+    display: none
+}
+#backtop:hover 
+{
+    background-color: whitesmoke;
+}
+#backtop.mcOut 
+{
+    opacity:0;
+}
+ 
+@media screen and (max-width: 1100px)
+ {
+    header h1
+    {
+        font-size: 400%;
+    }
+    header q
+    {
+        font-size: 130%;
+    }
+    .texts a
+    {
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 870px)
+ {
+    .texts a
+    {
+        font-size: 80%;
+    }
+    header h1
+    {
+        font-size: 300%;
+    }
+    header q
+    {
+        font-size: 110%;
+    }
+    nav li, a, button
+    {
+        width: 80%;
+    }
+    main 
+    {
+        width: 60%;
+    }
+    aside
+    {
+        width: 40%;
+    }
+ }
+ @media screen and (max-width: 700px)
+ {
+    header h1
+    {
+        font-size: 200%;
+    }
+    header q
+    {
+        font-size: 90%;
+    }
+    .texts a
+    {
+        font-size: 60%;
+    }
+    nav li, a, button
+    {
+        width: 30%;
+    }
+    main, aside
+    {
+      width: 50%;  
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .texts a 
+    {
+        font-size: 40%;
+    }
+    .container
+    {
+        display: block;
+        text-align: center;
+    }
+    .container aside, .container aside section
+    {
+        padding-bottom: 5vw;
+    }
+    main, aside
+    {
+        width: auto; 
+    }  
+    
+   footer section
+   {
+    width: 33%;
+   }
+
+    footer li
+    {
+        padding: 1vw;
+    }
+
+    nav 
+    {
+        position: absolute;
+        width: 10vw;
+        height: 10vw;
+        background-color: transparent;
+        background-image: url(../media/menu.png);
+        color:rgb(71, 24, 24) ;
+        background-size: 100%;
+        opacity: 1;
+        cursor: pointer;
+        left: 3vw;
+        top: 40vw;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    nav.open {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 37%;
+        height: 35%;
+        background-color: rgba(0, 0, 0, 0.2);
+        background-image: none;
+        opacity: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul 
+    {
+        
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding-top: 6vw;
+        transform: translateX(250px);
+        transition: 0.5s;
+    }
+
+    nav.open ul 
+    {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    nav a 
+    {
+        font-size: 120%;
+        color: rgb(71, 24, 24);
+        padding: 15px 20px;
+    }
+    nav button
+    {
+        width: 35vw;
+        height: 35%;
+    }
+}   
+ 

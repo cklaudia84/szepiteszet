@@ -1,0 +1,415 @@
+CRITICAL - 2024-07-07 08:19:17 --> ErrorException: Undefined variable $appointments
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 68.
+ 1 APPPATH\Controllers\Appointment.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+DEBUG - 2024-07-07 08:19:45 --> Appointments: <!-- DEBUG-VIEW START 1 APPPATH\Views\book.php -->
+
+
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\book.php -->
+
+DEBUG - 2024-07-07 08:19:48 --> Appointments: <!-- DEBUG-VIEW START 1 APPPATH\Views\book.php -->
+
+
+
+<!-- DEBUG-VIEW ENDED 1 APPPATH\Views\book.php -->
+
+CRITICAL - 2024-07-07 08:24:21 --> ErrorException: Undefined variable $time
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 49.
+ 1 APPPATH\Views\book.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(64): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 08:24:41 --> TypeError: Unsupported operand types: array + string
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 49.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(64): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 08:24:53 --> TypeError: Unsupported operand types: array + string
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 49.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Appointment.php(64): view()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 08:46:42 --> ErrorException: Undefined variable $error
+[Method: POST, Route: contact]
+in APPPATH\Views\contact.php on line 3.
+ 1 APPPATH\Views\contact.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\contact-success.php(4): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\contact-success.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Contact.php(29): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contact->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 08:48:46 --> ErrorException: Undefined variable $error
+[Method: POST, Route: contact]
+in APPPATH\Views\contact.php on line 3.
+ 1 APPPATH\Views\contact.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\contact.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\contact-success.php(4): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\contact-success.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Contact.php(29): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contact->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 09:51:40 --> ErrorException: Undefined variable $error
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 3.
+ 1 APPPATH\Views\book.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\appointment.php(17): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Appointment.php(71): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+DEBUG - 2024-07-07 09:58:45 --> POST adatok: Array
+(
+)
+
+ERROR - 2024-07-07 09:58:45 --> Beszúrás sikertelen
+DEBUG - 2024-07-07 09:58:48 --> POST adatok: Array
+(
+)
+
+ERROR - 2024-07-07 09:58:48 --> Beszúrás sikertelen
+DEBUG - 2024-07-07 09:59:03 --> POST adatok: Array
+(
+    [name] => Péntek Marianna
+    [email] => pentek@gmail.com
+    [phone] => +36701231234
+    [service_type] => Egyéb
+    [service_name] => Szemöldök festés
+    [time] => 13:00
+    [accept] => 1
+    [date] =>  
+    [send] => Küldés
+)
+
+DEBUG - 2024-07-07 09:59:03 --> Dátum:  
+ERROR - 2024-07-07 09:59:03 --> Beszúrás sikertelen
+DEBUG - 2024-07-07 10:06:40 --> POST adatok: Array
+(
+)
+
+ERROR - 2024-07-07 10:06:40 --> Beszúrás sikertelen
+DEBUG - 2024-07-07 10:06:42 --> POST adatok: Array
+(
+)
+
+ERROR - 2024-07-07 10:06:42 --> Beszúrás sikertelen
+DEBUG - 2024-07-07 10:06:54 --> POST adatok: Array
+(
+    [name] => Tóth Tamara
+    [email] => totht@gmail.com
+    [phone] => +36701231234
+    [service_type] => Arckezelés
+    [service_name] => Tű nélküli mezoterápia
+    [time] => 16:00
+    [accept] => 1
+    [date] =>  
+    [send] => Küldés
+)
+
+DEBUG - 2024-07-07 10:06:54 --> Dátum:  
+ERROR - 2024-07-07 10:06:54 --> Beszúrás sikertelen
+CRITICAL - 2024-07-07 10:37:31 --> ErrorException: Undefined variable $post
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 10:37:48 --> ErrorException: Undefined array key "date"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 52.
+ 1 APPPATH\Views\book.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 10:40:14 --> ErrorException: Undefined variable $post
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 19.
+ 1 APPPATH\Views\book.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 10:40:39 --> ErrorException: Undefined variable $post
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 19.
+ 1 APPPATH\Views\book.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 10:40:43 --> ErrorException: Undefined variable $post
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 19.
+ 1 APPPATH\Views\book.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 10:45:35 --> ErrorException: Undefined variable $appointments
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 10:50:03 --> ErrorException: Undefined array key "day"
+[Method: GET, Route: appointment]
+in APPPATH\Views\book.php on line 60.
+ 1 APPPATH\Views\book.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\book.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(52): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:10:28 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: galery]
+in APPPATH\Views\galery.php on line 6.
+ 1 APPPATH\Views\galery.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\galery.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Galery.php(12): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Galery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:11:59 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: galery]
+in APPPATH\Views\galery.php on line 6.
+ 1 APPPATH\Views\galery.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\galery.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Galery.php(12): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Galery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:12:46 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: galery]
+in APPPATH\Views\galery.php on line 6.
+ 1 APPPATH\Views\galery.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\galery.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Galery.php(12): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Galery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:12:48 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: galery]
+in APPPATH\Views\galery.php on line 6.
+ 1 APPPATH\Views\galery.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\galery.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Galery.php(12): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Galery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:13:54 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: galery]
+in APPPATH\Views\galery.php on line 6.
+ 1 APPPATH\Views\galery.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\galery.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Galery.php(12): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Galery->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:26:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "tícia1.jpg"
+[Method: GET, Route: t%C3%ADcia1.jpg]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:26:58 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "tícvia2.jpg"
+[Method: GET, Route: t%C3%ADcvia2.jpg]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:28:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$imgM"
+[Method: GET, Route: $imgM]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:29:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "tícvia2.jpg"
+[Method: GET, Route: t%C3%ADcvia2.jpg]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 12:29:40 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "tícia1.jpg"
+[Method: GET, Route: t%C3%ADcia1.jpg]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 18:46:30 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 95.
+ 1 APPPATH\Controllers\Appointment.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(55): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 18:57:04 --> ErrorException: Undefined array key "date"
+[Method: POST, Route: appointment-success]
+in APPPATH\Controllers\Appointment.php on line 19.
+ 1 APPPATH\Controllers\Appointment.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-07-07 18:57:10 --> ErrorException: Undefined array key "date"
+[Method: POST, Route: appointment-success]
+in APPPATH\Controllers\Appointment.php on line 19.
+ 1 APPPATH\Controllers\Appointment.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(57): CodeIgniter\Boot::bootWeb()

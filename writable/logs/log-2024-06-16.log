@@ -1,0 +1,661 @@
+CRITICAL - 2024-06-16 07:09:26 --> Error: Class "Codeigniter\Model" not found
+[Method: GET, Route: booking]
+in APPPATH\Models\BookingModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\Config\Factories.php(297): class_exists()
+ 6 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance()
+ 8 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic()
+ 9 APPPATH\Controllers\Booking.php(10): model()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 07:10:35 --> Error: Class "Codeigniter\Model" not found
+[Method: GET, Route: booking]
+in APPPATH\Models\BookingModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\Config\Factories.php(297): class_exists()
+ 6 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance()
+ 8 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic()
+ 9 APPPATH\Controllers\Booking.php(10): model()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 07:12:22 --> Error: Class "Codeigniter\Model" not found
+[Method: GET, Route: booking]
+in APPPATH\Models\BookingModel.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH\Config\Factories.php(297): class_exists()
+ 6 SYSTEMPATH\Config\Factories.php(216): CodeIgniter\Config\Factories::locateClass()
+ 7 SYSTEMPATH\Config\Factories.php(159): CodeIgniter\Config\Factories::getDefinedInstance()
+ 8 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic()
+ 9 APPPATH\Controllers\Booking.php(10): model()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 10:30:17 --> Error: Call to a member function database() on null
+[Method: GET, Route: appointment]
+in APPPATH\Models\AppointmentModel.php on line 10.
+ 1 SYSTEMPATH\Config\Factories.php(235): App\Models\AppointmentModel->__construct()
+ 2 SYSTEMPATH\Config\Factories.php(169): CodeIgniter\Config\Factories::createInstance()
+ 3 SYSTEMPATH\Common.php(802): CodeIgniter\Config\Factories::__callStatic()
+ 4 APPPATH\Controllers\Appointment.php(10): model()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 10:30:57 --> ErrorException: Undefined variable $appointments
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 15.
+ 1 APPPATH\Views\appointment.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 10:43:57 --> ErrorException: Undefined variable $appointments
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 16.
+ 1 APPPATH\Views\appointment.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 10:44:30 --> ErrorException: Undefined variable $appointments
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 16.
+ 1 APPPATH\Views\appointment.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:31:27 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 41.
+ 1 APPPATH\Views\calendar.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:37:08 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 4.
+ 1 APPPATH\Views\calendar.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:37:12 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 4.
+ 1 APPPATH\Views\calendar.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:40:16 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 4.
+ 1 APPPATH\Views\calendar.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:40:19 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 4.
+ 1 APPPATH\Views\calendar.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:43:59 --> ParseError: syntax error, unexpected variable "$dateComponents", expecting "function" or "const"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:44:16 --> ParseError: syntax error, unexpected variable "$month", expecting "function" or "const"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 11:44:41 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 4.
+ 1 APPPATH\Views\calendar.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:06:37 --> ErrorException: Undefined variable $dayOfWeeek
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 57.
+ 1 APPPATH\Controllers\Appointment.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:07:17 --> ErrorException: Undefined variable $dayOfWeeek
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 57.
+ 1 APPPATH\Controllers\Appointment.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:07:49 --> ErrorException: Undefined variable $daysOfWeeek
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 57.
+ 1 APPPATH\Controllers\Appointment.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:09:11 --> ErrorException: Undefined variable $dayOfweek
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 83.
+ 1 APPPATH\Controllers\Appointment.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:11:46 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 2.
+ 1 APPPATH\Views\calendar.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:14:41 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\calendar.php on line 2.
+ 1 APPPATH\Views\calendar.php(2): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 12:58:48 --> ErrorException: Maximum execution time of 30 seconds exceeded
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 13:01:06 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 74.
+ 1 APPPATH\Controllers\Appointment.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 13:04:34 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 74.
+ 1 APPPATH\Controllers\Appointment.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 13:09:14 --> ErrorException: Undefined variable $dayOfWeeek
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 87.
+ 1 APPPATH\Controllers\Appointment.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 13:26:56 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 110.
+ 1 APPPATH\Controllers\Appointment.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 13:51:47 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011720 bytes)
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 13:51:49 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914568 bytes)
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 13:52:08 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914568 bytes)
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 13:52:46 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914568 bytes)
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 13:53:14 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914568 bytes)
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 13:57:03 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 62914576 bytes)
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-16 14:17:04 --> ErrorException: Undefined variable $firstDay
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 32.
+ 1 APPPATH\Controllers\Appointment.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 14:21:13 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 44.
+ 1 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 14:21:47 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 44.
+ 1 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 14:22:01 --> TypeError: Unsupported operand types: string + int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 44.
+ 1 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:13:02 --> ParseError: Unmatched '}'
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:28:23 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 1.
+ 1 APPPATH\Views\appointment.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:33:33 --> ParseError: syntax error, unexpected token "="
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:36:13 --> ErrorException: Undefined variable $dateComponents
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 14.
+ 1 APPPATH\Controllers\Appointment.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:36:33 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 16.
+ 1 APPPATH\Controllers\Appointment.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:36:40 --> ErrorException: Undefined variable $calendar
+[Method: GET, Route: appointment]
+in APPPATH\Views\appointment.php on line 1.
+ 1 APPPATH\Views\appointment.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Program Files\\Ampps\\www\\szepiteszet\\app\\Views\\appointment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Appointment.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 15:38:26 --> ErrorException: Undefined variable $year
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 16.
+ 1 APPPATH\Controllers\Appointment.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 16:46:09 --> ErrorException: Undefined variable $dayName
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 71.
+ 1 APPPATH\Controllers\Appointment.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 16:59:36 --> TypeError: Unsupported operand types: string + int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 29.
+ 1 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 16:59:38 --> TypeError: Unsupported operand types: string + int
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 29.
+ 1 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:04:17 --> ErrorException: Undefined array key 13
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 40.
+ 1 APPPATH\Controllers\Appointment.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:04:18 --> ErrorException: Undefined array key 13
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 40.
+ 1 APPPATH\Controllers\Appointment.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:04:20 --> ErrorException: Undefined array key 13
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 40.
+ 1 APPPATH\Controllers\Appointment.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:04:21 --> ErrorException: Undefined array key 13
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 40.
+ 1 APPPATH\Controllers\Appointment.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:04:22 --> ErrorException: Undefined array key 13
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 40.
+ 1 APPPATH\Controllers\Appointment.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:07:29 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:13:10 --> ParseError: syntax error, unexpected variable "$year"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:13:21 --> ParseError: syntax error, unexpected variable "$year"
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:15:44 --> ArgumentCountError: time() expects exactly 0 arguments, 1 given
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 30.
+ 1 APPPATH\Controllers\Appointment.php(30): time()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:15:45 --> ArgumentCountError: time() expects exactly 0 arguments, 1 given
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 30.
+ 1 APPPATH\Controllers\Appointment.php(30): time()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:16:05 --> ArgumentCountError: time() expects exactly 0 arguments, 1 given
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 30.
+ 1 APPPATH\Controllers\Appointment.php(30): time()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:16:06 --> ArgumentCountError: time() expects exactly 0 arguments, 1 given
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 30.
+ 1 APPPATH\Controllers\Appointment.php(30): time()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-16 17:34:52 --> ErrorException: Undefined variable $var_dump
+[Method: GET, Route: appointment]
+in APPPATH\Controllers\Appointment.php on line 36.
+ 1 APPPATH\Controllers\Appointment.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Appointment.php(16): App\Controllers\Appointment->buildCalendar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Appointment->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
