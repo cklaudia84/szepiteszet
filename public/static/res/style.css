@@ -158,33 +158,38 @@ nav li
     width: 100%;
     text-align: center;
 }
-nav a
+nav a 
 {
     font-family: 'Kalam-bold';
-    padding: 2vh 1.5vh;
+    padding: 0.5vh 1vw;
     font-size: 130%;
     transition: 0.3s;
     text-decoration: none;
     color: rgb(180, 18, 105);
     text-shadow: 2px 2px 2px rgb(185, 177, 181);
+    background-color: rgb(245, 214, 174);
+    border: 1px solid rgb(226, 191, 146);
+    box-shadow: 3px 3px 6px 1px rgb(180, 100, 100);
+    display: inline-block;
+    width: calc(100vw / 7)
 }
-nav a:hover
+nav a:hover 
 {
     color: rgb(114, 6, 64);
-    text-decoration: none;
-    
-}
-nav button
-{
-    background-color: rgb(245, 214, 174);
-    border-color: rgb(226, 191, 146);
-    box-shadow: 3px 3px 6px 1px rgb(180, 100, 100);
-    width: 95%;
-    padding: 0.5vh
-}
-nav button:hover
-{
     background-color: rgb(226, 191, 146);
+    text-decoration: none;
+}
+.navadmin a
+{
+    width: 10vw;
+}
+.navadmin a:hover
+{
+    background-color: bisque
+}
+.navadmin ul
+{
+    margin: 0
 }
 .contain
 {

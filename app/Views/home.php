@@ -10,12 +10,12 @@
             <section>
                 <h2>Online bejelentkezés</h2>
                 <p>Ha szimpatikusnak találsz, akár online is bejelentkezhetsz bármikor, bármilyen kozmetikai szolgáltatásra.</p> 
-                <p><a class="btn btn-outline-light text-dark btn-sm p-2 m-1" href="<?= base_url('appointment') ?>">Csak kattints ide!</a></p>
+                <p><a class="btn btn-outline-light text-dark btn-sm p-2 m-1 text-decoration-none" href="<?= base_url('appointment') ?>">Csak kattints ide!</a></p>
             </section>
             <hr><br>
             <section>
                 <h2>Kapcsolat felvétel</h2>
-                <p>Ha bármilyen kérdésed lenne, <a class="btn btn-outline-light text-dark btn-sm p-2 m-1" href="<?= base_url('contact') ?>">itt</a> kapcsolatba tudsz lépni velem, akár telefonon vagy az oldalon üzenetben.</p>
+                <p>Ha bármilyen kérdésed lenne, <a class="btn btn-outline-light text-dark btn-sm p-2 m-1 text-decoration-none" href="<?= base_url('contact') ?>">itt</a> kapcsolatba tudsz lépni velem, akár telefonon vagy az oldalon üzenetben.</p>
             </section>
 
             <section>

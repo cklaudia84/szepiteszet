@@ -56,19 +56,4 @@ document.addEventListener('DOMContentLoaded', function() //DOMContentLoaded esem
             
      
     const form = document.querySelector('form');// a form elküldésének figyelése
-
-     
-   /*  form.addEventListener('submit', function(event) 
-    {
-       
-        const hiddenDateInput = document.querySelector('input[name="date"]');
-        console.log('Hidden input date value at submit:', hiddenDateInput.value);
-        
-         if (!hiddenDateInput.value)
-         {
-           console.error('Nincs kiválasztott dátum');
-           event.preventDefault(); // Ne küldjük el az űrlapot
-            //return; // Ha nincs kiválasztott dátum, ne küldjük el az űrlapot
-         }
-    });   */
 });

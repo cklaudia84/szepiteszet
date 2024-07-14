@@ -17,7 +17,6 @@ class Appointment extends BaseController
 
 		if($post)
 		{
-var_dump($post['date']);
 			$validation = \CodeIgniter\Config\Services::validation();  // Validáció példány inicializálása
 			$valid = $validation->run($post, 'book');
 		

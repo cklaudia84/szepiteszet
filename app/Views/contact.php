@@ -25,7 +25,7 @@
 		</div>
 		<div>
 			<?= form_label('Tárgy', 'subject') ?>
-			<?= form_dropdown('subject', ['Információ', 'Ajánlatkérés', 'Lemondás', 'Módosítás'], set_value('subject', 0), ['id' => 'subject']) ?>
+			<?= form_dropdown('subject', ['Információ' => 'Információ', 'Ajánlatkérés' => 'Ajánlatkérés', 'Lemondás' => 'Lemondás', 'Módosítás' => 'Módosítás'], set_value('subject', 0), ['id' => 'subject']) ?>
 		</div>
 		<div>
 			<?= form_label('Üzenet szövege', 'message') ?>

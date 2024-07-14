@@ -47,11 +47,11 @@
 
     <nav>
         <ul>
-            <li><button><a href="<?= base_url()?>">Bemutatkozás</a></button></li>
-            <li><button><a href="<?= base_url('services')?>">Szolgáltatások</a></button></li>
-            <li><button><a href="<?= base_url('galery')?>">Galéria</a></button></li>
-            <li><button><a href="<?= base_url('blog')?>">Blog</a></button></li>
-            <li><button><a href="<?= base_url('contact')?>">Kapcsolat</a></button></li>
-            <li><button><a href="<?= base_url('appointment')?>">Foglalás</a></button></li>
+            <li><a href="<?= base_url()?>">Bemutatkozás</a></li>
+            <li><a href="<?= base_url('services')?>">Szolgáltatások</a></li>
+            <li><a href="<?= base_url('galery')?>">Galéria</a></li>
+            <li><a href="<?= base_url('blog')?>">Blog</a></li>
+            <li><a href="<?= base_url('contact')?>">Kapcsolat</a></li>
+            <li><a href="<?= base_url('appointment')?>">Foglalás</a></li>
         </ul>
     </nav>
