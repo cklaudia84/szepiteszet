@@ -22,8 +22,6 @@ class UserAuth extends BaseController
 	}
 	public function login()
 	{
-		$view = \App\Views\UserView::LoginForm();
-		
 		$post = $this->request->getPost();
 		if($post)
 		{
@@ -40,14 +38,14 @@ class UserAuth extends BaseController
 				return view('templates/admin-begin')
 					.'<br><center><h1>Bejelentkezés</h1></center><br>'
 					.$error
-					.$view
+					.view('login')
 					.view('templates/admin-end');
 			}
 		}
 		
 		return view('templates/admin-begin')
 			.'<br><center><h1>Bejelentkezés</h1></center><br>'
-			.$view
+			.view('login')
 			.view('templates/admin-end');
 	}
 	public function logout()
