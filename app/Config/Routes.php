@@ -25,12 +25,14 @@ $routes->match(['get', 'post'], 'booked/new', 'Booked::creation');
 $routes->match(['get', 'post'], 'booked/edit/(:any)', 'Booked::edit/$1');
 $routes->get('booked/delete/(:num)', 'Booked::delete/$1');
 $routes->get('booked/confirmDelete/(:num)', 'Booked::confirmDelete/$1');
+
 $routes->match(['get', 'post'], 'contacted', 'Contacted::list', ['filter' => 'auth']);
 $routes->match(['get', 'post'], 'contacted/edit/(:any)', 'Contacted::edit/$1');
-$routes->get('contacted//delete(:num)', 'Contacted::delete/$1');
+$routes->get('contacted/delete(:num)', 'Contacted::delete/$1');
+$routes->get('contacted/confirmDelete/(:num)', 'Contacted::confirmDelete/$1');
 
-$routes->match(['get', 'post'], 'services-edit', 'Services::list', ['filter' => 'auth']);
-$routes->match(['get', 'post'], 'services-edit/new', 'Services::creation');
-$routes->match(['get', 'post'], 'services-edit/edit/(:any)', 'Services::edit/$1');
-$routes->get('services-edit/delete(:num)', 'Services::delete/$1');
-
+$routes->match(['get', 'post'], 'services/list', 'Services::list', ['filter' => 'auth']);
+$routes->match(['get', 'post'], 'services/new', 'Services::creation');
+$routes->match(['get', 'post'], 'services/edit/(:any)', 'Services::edit/$1');
+$routes->get('services/delete/(:num)', 'Services::delete/$1');
+$routes->get('services/confirmDelete/(:num)', 'Services::confirmDelete/$1');

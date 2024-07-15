@@ -29,10 +29,10 @@ class Contact extends BaseController
 					$view_content .= view('contact-success');
 				}
 			}	
-        else
-			{
-				$error = implode('<br>', $validation->getErrors());  // Hibaüzenetek lekérése
-			}
+			else
+				{
+					$error = implode('<br>', $validation->getErrors());  // Hibaüzenetek lekérése
+				}
 		}
 		if(!$inserted)
 		{
@@ -44,6 +44,5 @@ class Contact extends BaseController
 			return $view_begin
 				.$view_content 
 				.$view_end;
-				
 	}
 }

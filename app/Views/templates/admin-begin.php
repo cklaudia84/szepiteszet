@@ -20,7 +20,7 @@
 						<li class="p-5"><a href="<?= base_url('admin')?>">Főoldal</a></li>
 						<li class="p-5"><a href="<?= base_url('booked')?>">Foglalások</a></li>
 						<li class="p-5"><a href="<?= base_url('contacted')?>">Üzenetek</a></li>
-						<li class="p-5"><a href="<?= base_url('services-edit')?>">Szolgáltatások</a></li>
+						<li class="p-5"><a href="<?= base_url('services/list')?>">Szolgáltatások</a></li>
 						<?php if(\App\Controllers\UserAuth::GetSession()): ?>
 						<li><a href="<?= base_url('logout')?>">Kilépés</a></li>
 						<?php else: ?>

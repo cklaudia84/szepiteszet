@@ -10,7 +10,6 @@ class Appointment extends BaseController
 		$model = new AppointmentModel();
 		$data['appointments'] = $model->findAll();
 		
-		
 		$error = false;
 		$inserted = false;
 		$post = $this->request->getPost();	
@@ -54,9 +53,8 @@ class Appointment extends BaseController
 		
 		$data['calendar'] = $this->buildCalendar();
 		
-		
-		
-		return view('templates/begin', $title)		.'<br><center><h1>Időpontfoglalás</h1></center><br>'
+		return view('templates/begin', $title)
+			.'<br><center><h1>Időpontfoglalás</h1></center><br>'
 			.view('appointment', $data)
 			.view('templates/end');
 	}
@@ -126,14 +124,13 @@ class Appointment extends BaseController
 			{
 				$calendar .= ' class="calendar-day" data-date="'.date('Y-m-d', $currentDate).'"><h4>'. $i .'</h4><a href="?day=' . $i . '&month=' . $month . '&year=' . $year . '" class="btn btn-success btn-xs">Foglalok</a></td>';
 			}
-		else
-		{
-			
+			else
+			{
 				$calendar .= '><h4>'. $i .'</h4><p class="btn btn-danger btn xs">Betelt</p></td>';
-		}
+			}
 		
 			$firstWeekDay = ($firstWeekDay % 7) + 1;
-			
+
 			if($firstWeekDay == 1)
 			{
 				$calendar .= '</tr><tr>';
@@ -147,24 +144,9 @@ class Appointment extends BaseController
 				$calendar .= '<td></td>';
 			}
 		}
-	
+		
 		$calendar .= '</tr>';
 		$calendar .= '</table></div>';
 		return $calendar;
 	}	
-	
-	public function getAppointments($year, $month, $day): string
-	{
-		$model = new AppointmentModel();
-		$appointments = $model->getAppointments($year, $month, $day);
-
-		$output = '<ul>';
-		foreach ($appointments as $appointment) 
-		{
-			$output .= '<li>' . $appointment['time'] . '</li>';
-		}
-		$output .= '</ul>';
-
-		return $output;
-	}
 }

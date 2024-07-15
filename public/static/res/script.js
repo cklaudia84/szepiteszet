@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() //DOMContentLoaded esem
     var month = urlParams.get('month').toString().padStart(2, '0');
     var year = urlParams.get('year');
   
-   
    function updateServiceNames() //a szolgáltatás nevek frissítése, amikor a szolgáltatás típusát kiválasztják
    {
         const serviceType = serviceTypeSelect.value; //lekérdezi a kiválasztott szolgáltatás típusának értékét a serviceTypeSelect-ből
@@ -36,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() //DOMContentLoaded esem
                 option.textContent = service;
                 serviceNameSelect.appendChild(option);
             });
-        }
+        }   
     } 
     serviceTypeSelect.addEventListener('change', updateServiceNames); //Hozzáad egy change esemény figyelőt a serviceTypeSelect elemhez, amely meghívja az updateServiceNames függvényt, amikor a kiválasztás változik
     updateServiceNames(); //függvény meghívása az oldal betöltésekor

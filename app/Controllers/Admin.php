@@ -13,7 +13,7 @@ class Admin extends BaseController
 		$data['contacts'] = $model2->orderBy('date', 'DESC')->limit(5)->find();
 		
         return view('templates/admin-begin')
-			  .view('admin', $data)
+			  .view('adminViews/admin', $data)
 			  .view('templates/admin-end');
     }
 }

@@ -108,7 +108,7 @@ class Filters extends BaseFilters
 			[
 				'auth' => 
 				[
-					'before' => ['admin/*', 'booked/*', 'contacted/*', 'services-edit/*']
+					'before' => ['admin/*', 'booked/*', 'contacted/*', 'services/*']
 				]  
 			];
 }

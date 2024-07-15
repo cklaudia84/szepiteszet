@@ -38,16 +38,17 @@ class UserAuth extends BaseController
 			{
 				$error =  '<center><div class="alert alert-danger w-25"><h3>Hibás felhasználónév vagy jelszó!</h3></div></center>';
 				return view('templates/admin-begin')
-						.'<br><center><h1>Bejelentkezés</h1></center><br>'
-						.$error
-						.$view
-						.view('templates/admin-end');
+					.'<br><center><h1>Bejelentkezés</h1></center><br>'
+					.$error
+					.$view
+					.view('templates/admin-end');
 			}
 		}
+		
 		return view('templates/admin-begin')
-		.'<br><center><h1>Bejelentkezés</h1></center><br>'
-		.$view
-		.view('templates/admin-end');
+			.'<br><center><h1>Bejelentkezés</h1></center><br>'
+			.$view
+			.view('templates/admin-end');
 	}
 	public function logout()
 	{
