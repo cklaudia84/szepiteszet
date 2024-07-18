@@ -13,7 +13,7 @@
 		<?php foreach($services as $service) :?>
 		<tr>
 			<td><h4><?= $service['name'] ?></h4></td>
-			<td><h4><?= $service['title'] ?></h4></td>
+			<td><h4><?= $service['type'] ?></h4></td>
 			<td><h4><?= $service['price'] = number_format($service['price'], 0, ".", " ") ?> Ft </h4></td>
 			<td><a href="<?= base_url('services/edit/'. $service['id']) ?>" title="Szerkesztés"><i class="fa-solid fa-pen"></i></a></td>
 			<td><a href="<?= base_url('services/confirmDelete/' . $service['id']) ?>" title="Törlés"><i class="fa-solid fa-trash"></i></a></td>

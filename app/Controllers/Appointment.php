@@ -9,11 +9,11 @@ class Appointment extends BaseController
 		$title = \App\Models\TitleModel::GetAppointmentContent();
 		$model = new AppointmentModel();
 		$data['appointments'] = $model->findAll();
-		
+			
 		$error = false;
 		$inserted = false;
 		$post = $this->request->getPost();	
-
+		
 		if($post)
 		{
 			$validation = \CodeIgniter\Config\Services::validation();  // Validáció példány inicializálása
@@ -53,12 +53,12 @@ class Appointment extends BaseController
 		
 		$data['calendar'] = $this->buildCalendar();
 		
-		return view('templates/begin', $title)
+		return view('templates/begin', $title)		
 			.'<br><center><h1>Időpontfoglalás</h1></center><br>'
 			.view('appointment', $data)
 			.view('templates/end');
 	}
-	
+
 	public function buildCalendar(): string
 	{	
 		$year = isset($_GET['year']) ? intval($_GET['year']) : (int) date('Y');

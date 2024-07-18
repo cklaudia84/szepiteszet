@@ -1,13 +1,13 @@
-var navElem = document.querySelector("nav"); //Nav elem felkutatatása és eltárolása
-function Menuclick()
-{
-    navElem.classList.toggle("open"); //Az OPEN class hozzáadása a NAV elemhez
-}
-navElem.onclick = Menuclick();
-
-
 document.addEventListener('DOMContentLoaded', function() //DOMContentLoaded eseményfigyelő: a script csak akkor fusson, amikor a teljes HTML dokumentum betöltődött
 {
+    var navElem = document.querySelector("nav");
+
+    function Menuclick()
+    {
+        navElem.classList.toggle("open");
+    }
+    navElem.onclick = Menuclick;
+    
     //szolgáltatás típus és név kezelése
     const serviceTypeSelect = document.getElementById('service_type');
     const serviceNameSelect = document.getElementById('service_name');
@@ -42,17 +42,11 @@ document.addEventListener('DOMContentLoaded', function() //DOMContentLoaded esem
  
     
     let selectedDate = [year , month, day].join('-');
-    console.log(selectedDate);
    
     const hiddenDateInput = document.querySelector('input[name="date"]');
     hiddenDateInput.value = selectedDate;
-
-    console.log('Hidden input date value:', hiddenDateInput.value);
-
+   
     document.querySelector('input[name="date"]').value = selectedDate;
-    console.log('selected date:', selectedDate);  
-    console.log('hidden input value:', hiddenDateInput.value);      
-            
-     
-    const form = document.querySelector('form');// a form elküldésének figyelése
+    
+    const form = document.querySelector('form');// a form elküldésének figyelése   
 });

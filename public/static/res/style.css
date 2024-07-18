@@ -3,7 +3,9 @@
     margin-top: 0;
     color: rgb(71, 24, 24)
 }
-
+*, ::after, ::before{
+    box-sizing: unset;
+}
 @font-face 
 {
     font-family: 'Kalam-regular';
@@ -182,6 +184,7 @@ nav a:hover
 .navadmin a
 {
     width: 10vw;
+    font-size: 120%;
 }
 .navadmin a:hover
 {
@@ -385,12 +388,14 @@ input[type="checkbox"]
  {
      background: rgb(224, 191, 147);
  }
- .gallery ul
+ .galery ul
  {
     display: flex;
     list-style: none;
+    align-items: center;
+    margin: 0
  }
- .gallery a:hover
+ .galery a:hover
  {
      text-decoration: none;
  }
@@ -437,7 +442,55 @@ input[type="checkbox"]
     {
         font-size: 100%;
     }
+    nav
+    {
+        font-size: 110%;
+    }
 }
+
+
+
+/*
+
+nav a 
+{
+    font-family: 'Kalam-bold';
+    padding: 0.5vh 1vw;
+    font-size: 130%;
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(180, 18, 105);
+    text-shadow: 2px 2px 2px rgb(185, 177, 181);
+    background-color: rgb(245, 214, 174);
+    border: 1px solid rgb(226, 191, 146);
+    box-shadow: 3px 3px 6px 1px rgb(180, 100, 100);
+    display: inline-block;
+    width: calc(100vw / 7)
+}
+nav a:hover 
+{
+    color: rgb(114, 6, 64);
+    background-color: rgb(226, 191, 146);
+    text-decoration: none;
+}
+.navadmin a
+{
+    width: 10vw;
+    font-size: 120%;
+}
+.navadmin a:hover
+{
+    background-color: bisque
+}
+.navadmin ul
+{
+    margin: 0
+}
+
+*/
+
+
+
 @media screen and (max-width: 870px)
  {
     .texts a
@@ -464,6 +517,10 @@ input[type="checkbox"]
     {
         width: 40%;
     }
+    nav
+    {
+        font-size: 90%
+    }
  }
  @media screen and (max-width: 700px)
  {
@@ -479,6 +536,10 @@ input[type="checkbox"]
     {
         font-size: 60%;
     }
+     nav 
+    {
+        font-size: 70%
+    }
     nav li, a, button
     {
         width: 30%;
@@ -487,6 +548,7 @@ input[type="checkbox"]
     {
       width: 50%;  
     }
+    
 }
 @media screen and (max-width: 550px)
 {
@@ -518,6 +580,9 @@ input[type="checkbox"]
         padding: 1vw;
     }
 
+    
+    
+ 
     nav 
     {
         position: absolute;
@@ -530,24 +595,29 @@ input[type="checkbox"]
         opacity: 1;
         cursor: pointer;
         left: 3vw;
-        top: 40vw;
+        top: 25vw;
         overflow: hidden;
         transition: 0.5s;
     }
-    nav.open {
+    nav.open 
+    {
         position: fixed;
         top: 0;
         left: 0;
         z-index: 1;
-        width: 37%;
-        height: 35%;
+        width: 25%;
+        height: 40%;
         background-color: rgba(0, 0, 0, 0.2);
         background-image: none;
         opacity: 1;
         display: flex;
         justify-content: flex-end;
+        
     }
-
+   /* nav.open li
+    {
+        width: 50%
+    }*/ 
     nav ul 
     {
         
@@ -558,23 +628,22 @@ input[type="checkbox"]
         transform: translateX(250px);
         transition: 0.5s;
     }
-
     nav.open ul 
     {
         opacity: 1;
         transform: translateX(0);
+        width: 150%
+            
     }
 
-    nav a 
+    nav.open a 
     {
-        font-size: 120%;
+        font-size: 100%;
         color: rgb(71, 24, 24);
         padding: 15px 20px;
     }
-    nav button
+    table
     {
-        width: 35vw;
-        height: 35%;
+        font-size: 50%
     }
-}   
- 
+} 

@@ -1,12 +1,12 @@
 <center><br><h1>Képek munkáimból</h1><br>
-<div class="gallery"  style=" width: 500px;">
+<div class="galery" style="width: 500px" >
 	<ul>
 	<li><a class="btn btn-outline-light text-dark btn-lg p-3 m-4" href="#Makeup">Smink</a></li>
 	<li><a class="btn btn-outline-light text-dark btn-lg p-3 m-4" href="#Tattoo">Tetoválás</a></li>
 	<li><a class="btn btn-outline-light text-dark btn-lg p-3 m-4" href="#Eyeb">Egyéb</a></li>
 	</ul></div>
 
-	<a id="Makeup"><h2>Smink</h2></a><br></center>
+	<a id="Makeup"><h2>Smink</h2></a><br>
 
 <?php
 $imageMakeup = scandir('static/media/make-up/');
@@ -39,3 +39,5 @@ foreach($imageEyeb as $imgE)
 		echo '<img class=" w-25 p-3" src="static/media/eyeb/'. $imgE .'">';
 	}
 }
+?>
+</center>

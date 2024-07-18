@@ -28,6 +28,7 @@
 
 <script src="<?= base_url('static/res/script.js') ?>"></script>
 <script src="<?= base_url('static/res/float-panel.js') ?>"></script>
+
 </body>
 
 </html>

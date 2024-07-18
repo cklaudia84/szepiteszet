@@ -32,7 +32,7 @@ $times = ['09:00' => '09:00', '10:00' => '10:00', '11:00' => '11:00', '12:00' =>
 			<?= form_label('Telefonszám:', 'phone') ?>
 			<?= form_input('phone', set_value('phone'), ['id' => 'phone', 'placeholder' => 'Például: +36301234567', 'phone']) ?>
 		</div>
-		<div>
+		<div>			
 			<?= form_label('Szolgáltatás típusa:', 'service_type') ?>
 			<?= form_dropdown('service_type', ['' => '-- Választok --'] + array_combine(array_keys($services), array_keys($services)), set_value('service_type', ''), ['id' => 'service_type', 'data-services' => htmlspecialchars(json_encode($services), ENT_QUOTES, 'UTF-8')]) ?>
 		</div>

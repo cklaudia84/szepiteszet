@@ -13,7 +13,7 @@
 					<?php foreach($services as $service) :?>
 					<tr>
 						<td><h4><?= $service['name'] ?></h4></td>
-						<td><h4><?= $service['title'] ?></h4></td>
+						<td><h4><?= $service['type'] ?></h4></td>
 						<td><h4><?= $service['price'] = number_format($service['price'], 0, ".", " ") ?> Ft </h4></td>
 					</tr>
 					<?php endforeach; ?>

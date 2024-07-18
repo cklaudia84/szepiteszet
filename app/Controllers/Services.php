@@ -41,7 +41,7 @@ class Services extends BaseController
 			[
 				'id' => $id,
 				'name' => $this->request->getPost('name'),
-				'title' => $this->request->getPost('title'),
+				'type' => $this->request->getPost('type'),
 				'price' => $this->request->getPost('price'),
 			];
 			
