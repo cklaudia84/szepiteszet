@@ -32,11 +32,11 @@ Még nincs megoldva a foglalás többi része, az időpont kiválasztás csak eg
 ## Admin oldal
 http://localhost/szepiteszet/public/admin \
 Az oldal megtekintéséhez bejelentkezés szükséges: \
-*Felhasználónév: admin* \
-*Jelszó: 12345* \
-A menü megjelenik (a Belépés és Kilépés cserélődik, az aktuális állapotnak megfelelően).
-Sem a menüre kattintva, sem az URL-be írva az elérési útvonalat, csak a belépési felület látható, míg be nem lépünk.
-Egyedül a weboldalra tudunk átnavigáni bejelentkezés nélkül.
+Felhasználónév: *admin* \
+Jelszó: *12345* \
+A menü megjelenik (a Belépés és Kilépés cserélődik az aktuális állapotnak megfelelően) \
+A menüre kattintva vagy az URL-be írva az elérési útvonalat, csak a belépési felület látható, míg be nem lépünk \
+Egyedül a weboldalra tudunk átnavigáni bejelentkezés nélkül \
 
 - Főoldal
     - Az adatbázisból történik lekérésre a két legfontosabb menüpont utolsó 5 elemének listázása: foglalások és üzenetek
