@@ -30,10 +30,10 @@ A header-ben a váltakozó kép, időpontfoglalási linkkel
 Még nincs megoldva a foglalás többi része, az időpont kiválasztás csak egy tömbből kerül meghívásra, nincs beállítva, hogy az adott szolgáltatás mennyi időt vesz igénybe, lehetnek ütközések
 
 ## Admin oldal
-http://localhost/szepiteszet/public/admin oldalon érhető el.
-Az oldal megtekintéséhez bejelentkezés szükséges:
-*Felhasználónév: admin*
-*Jelszó: 12345*
+http://localhost/szepiteszet/public/admin \
+Az oldal megtekintéséhez bejelentkezés szükséges: \
+*Felhasználónév: admin* \
+*Jelszó: 12345* \
 A menü megjelenik (a Belépés és Kilépés cserélődik, az aktuális állapotnak megfelelően).
 Sem a menüre kattintva, sem az URL-be írva az elérési útvonalat, csak a belépési felület látható, míg be nem lépünk.
 Egyedül a weboldalra tudunk átnavigáni bejelentkezés nélkül.
