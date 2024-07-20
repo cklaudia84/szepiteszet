@@ -7,7 +7,7 @@
 	</ul></div>
 
 	<a id="Makeup"><h2>Smink</h2></a><br>
-
+ 
 <?php
 $imageMakeup = scandir('static/media/make-up/');
 foreach($imageMakeup as $imgM)

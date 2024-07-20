@@ -3,8 +3,9 @@
     margin-top: 0;
     color: rgb(71, 24, 24)
 }
-*, ::after, ::before{
-    box-sizing: unset;
+*, ::after, ::before
+{
+   box-sizing: unset;
 }
 @font-face 
 {
@@ -183,16 +184,17 @@ nav a:hover
 }
 .navadmin a
 {
-    width: 10vw;
-    font-size: 120%;
+    margin:0;
+    padding:0.3vw;
+    font-size: 100%;
 }
 .navadmin a:hover
 {
     background-color: bisque
 }
 .navadmin ul
-{
-    margin: 0
+{   
+    margin: 0;
 }
 .contain
 {
@@ -447,50 +449,6 @@ input[type="checkbox"]
         font-size: 110%;
     }
 }
-
-
-
-/*
-
-nav a 
-{
-    font-family: 'Kalam-bold';
-    padding: 0.5vh 1vw;
-    font-size: 130%;
-    transition: 0.3s;
-    text-decoration: none;
-    color: rgb(180, 18, 105);
-    text-shadow: 2px 2px 2px rgb(185, 177, 181);
-    background-color: rgb(245, 214, 174);
-    border: 1px solid rgb(226, 191, 146);
-    box-shadow: 3px 3px 6px 1px rgb(180, 100, 100);
-    display: inline-block;
-    width: calc(100vw / 7)
-}
-nav a:hover 
-{
-    color: rgb(114, 6, 64);
-    background-color: rgb(226, 191, 146);
-    text-decoration: none;
-}
-.navadmin a
-{
-    width: 10vw;
-    font-size: 120%;
-}
-.navadmin a:hover
-{
-    background-color: bisque
-}
-.navadmin ul
-{
-    margin: 0
-}
-
-*/
-
-
-
 @media screen and (max-width: 870px)
  {
     .texts a
@@ -519,7 +477,7 @@ nav a:hover
     }
     nav
     {
-        font-size: 90%
+        font-size: 90% 
     }
  }
  @media screen and (max-width: 700px)
@@ -580,9 +538,6 @@ nav a:hover
         padding: 1vw;
     }
 
-    
-    
- 
     nav 
     {
         position: absolute;
@@ -606,7 +561,7 @@ nav a:hover
         left: 0;
         z-index: 1;
         width: 25%;
-        height: 40%;
+        height: 50%;
         background-color: rgba(0, 0, 0, 0.2);
         background-image: none;
         opacity: 1;
@@ -614,10 +569,6 @@ nav a:hover
         justify-content: flex-end;
         
     }
-   /* nav.open li
-    {
-        width: 50%
-    }*/ 
     nav ul 
     {
         
@@ -641,6 +592,16 @@ nav a:hover
         font-size: 100%;
         color: rgb(71, 24, 24);
         padding: 15px 20px;
+    }
+    nav .navadmin.open
+    {
+        height: 100vw
+    }
+    nav .navadmin.open li, a
+    {
+        height: 100%;
+        padding: 0;
+        margin: 0;
     }
     table
     {

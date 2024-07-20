@@ -8,8 +8,8 @@
 			<?= form_input('name', set_value('name'), ['id' => 'name', 'placeholder' => 'Gyantázás']) ?>	
 		</div>
 		<div>
-			<?= form_label('Szolgáltatás megnevezése', 'title') ?>
-			<?= form_input('title', set_value('title'), ['id' => 'title', 'placeholder' => 'Teljes láb']) ?>		
+			<?= form_label('Szolgáltatás megnevezése', 'type') ?>
+			<?= form_input('type', set_value('type'), ['id' => 'type', 'placeholder' => 'Teljes láb']) ?>		
 		</div>
 		<div>
 			<?= form_label('Szolgáltatás ára:', 'price') ?>

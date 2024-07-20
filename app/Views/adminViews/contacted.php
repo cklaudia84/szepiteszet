@@ -6,6 +6,7 @@
 		<th>Tárgy</th>
 		<th>Üzenet</th>
 		<th>Üzenet ideje</th>
+		<th>Válaszolva</th>
 		<th></th>
 	</tr>
 	
@@ -17,12 +18,25 @@
 		<td><?php echo $contact['subject']; ?></td>
 		<td><?php echo $contact['message']; ?></td>
 		<td><?php echo $contact['date']; ?></td>
-		<td><a href="<?= base_url('contacted/confirmDelete/'. $contact['id']) ?>" title="Törlés"><i class="fa-solid fa-trash"></i></a></td>
+		
+		<td>
+			<?php if ($contact['answered'] === '1'): ?>
+				<a href="<?= base_url('contacted/unanswered/'. $contact['id']) ?>" title="Visszavonás">
+					<i class="fa-solid fa-check"></i>
+				</a>
+			<?php else: ?>
+				<a href="<?= base_url('contacted/answered/'. $contact['id']) ?>" title="Megválaszolva">
+					<i class="fa-solid fa-check" style="color: #bfbfbf;"></i>
+				</a>
+		</td>
+			<?php endif; ?>
+		
+		<td>
+			<a href="<?= base_url('contacted/confirmDelete/'. $contact['id']) ?>" title="Törlés"><i class="fa-solid fa-trash"></i>
+			</a>
+		</td>
+		
 	</tr>
 
 	<?php endforeach; ?>
 		</table></center><br>
-
-
-
-

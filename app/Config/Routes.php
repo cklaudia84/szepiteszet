@@ -28,8 +28,10 @@ $routes->get('booked/confirmDelete/(:num)', 'Booked::confirmDelete/$1');
 
 $routes->match(['get', 'post'], 'contacted', 'Contacted::list', ['filter' => 'auth']);
 $routes->match(['get', 'post'], 'contacted/edit/(:any)', 'Contacted::edit/$1');
-$routes->get('contacted/delete(:num)', 'Contacted::delete/$1');
+$routes->get('contacted/delete/(:num)', 'Contacted::delete/$1');
 $routes->get('contacted/confirmDelete/(:num)', 'Contacted::confirmDelete/$1');
+$routes->get('contacted/answered/(:num)', 'Contacted::answered/$1');
+$routes->get('contacted/unanswered/(:num)', 'Contacted::unanswered/$1');
 
 $routes->match(['get', 'post'], 'services/list', 'Services::list', ['filter' => 'auth']);
 $routes->match(['get', 'post'], 'services/new', 'Services::creation');

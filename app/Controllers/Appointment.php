@@ -46,10 +46,9 @@ class Appointment extends BaseController
 				$error = implode('<br>', $validation->getErrors());
 			}
 		}
-		if(!$inserted)
-		{
-			$view = view('book', ['error' => $error]);
-		}
+		
+		$view = view('book', ['error' => $error]);
+		
 		
 		$data['calendar'] = $this->buildCalendar();
 		

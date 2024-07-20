@@ -8,7 +8,7 @@ class Services extends BaseController
 	{
 		$data_title = \App\Models\TitleModel::GetServicesContent();
 		
-		$model = model(\App\Models\ServicesModel::class);
+		$model = new ServicesModel();
 		$data['services'] = $model->findAll();
 		
 		return view('templates/begin', $data_title)
@@ -37,25 +37,15 @@ class Services extends BaseController
 		$post = $this->request->getPost();
 		if($post)
 		{
-			$data = 
-			[
-				'id' => $id,
-				'name' => $this->request->getPost('name'),
-				'type' => $this->request->getPost('type'),
-				'price' => $this->request->getPost('price'),
-			];
-			
-			$update = $model->save($data);
+			$post['id'] = $id;
+			$update = $model->save($post);
 				
 			if($update)
 			{ 
-				$data['services'] = $model->findAll();
-				return view('templates/admin-begin')
-				.'<br><center><div class="alert alert-success w-25"><h3><strong>A módosítás sikerült!</strong></h3></div><br>'	
-				.view('adminViews/services', $data)
-				.view('templates/admin-end');
+				return $this->successfulEdit($model);
 			}
 		}
+		
 		$data['services'] = $model->findAll();
 		return view('templates/admin-begin')
 			.view('adminViews/services-edit', $data)
@@ -65,7 +55,7 @@ class Services extends BaseController
 	public function creation()
 	{
 		$model = new ServicesModel();
-		$data['services'] = $model->findAll();
+		//$data['service'] = $model->findAll();
 		$inserted = false;
 		
 		$post = $this->request->getPost();
@@ -75,14 +65,7 @@ class Services extends BaseController
 			$inserted = $model->save($post);
 			if($inserted)
 			{
-				$data['services'] = $model->findAll();
-				
-				return view('templates/admin-begin')
-				.'<br><center><div class="alert alert-success w-25"><h3><strong>Az új szolgáltatás rögzítésre került!</strong></h3></div><br>'
-				.view('adminViews/services-add')	
-				.'<br><center><h1>Szolgáltatások</h1></center><br>'		
-				.view('adminViews/services', $data)
-				.view('templates/admin-end');
+				return $this->successfulCreate($model);
 			}
 		}
 		return view('templates/admin-begin')
@@ -91,7 +74,7 @@ class Services extends BaseController
 	}
 	public function confirmDelete($id)
 	{
-		$model = new servicesModel();
+		$model = new ServicesModel();
 		$data['service'] = $model->find($id);
 
 		return view('templates/admin-begin')
@@ -105,20 +88,51 @@ class Services extends BaseController
 
         if ($model->delete($id)) 
 		{
-			$data['services'] = $model->findAll();
-           	return view('templates/admin-begin')		
-			.'<br><center><div class="alert alert-success w-25"><h3><strong>Sikeres törlés!</strong></h3></div>'
-			.'<br><center><h1>Szolgáltatások</h1></center><br>'	
-			.view('adminViews/services-add')		
-			.view('adminViews/services', $data)
-			.view('templates/admin-end');
+			return $this->successfulDel($model);
 		}
+		return redirect()->to('/services/list');
+    }
+	private function successfulEdit($model)
+	{
 		$data['services'] = $model->findAll();
+		
 		return view('templates/admin-begin')
+		. '<br><center><div class="alert alert-success alert-dismissible fade show w-25" role="alert">'
+		. '<h3><strong>A módosítás sikerült!</strong></h3>'
+		. '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
+		. '</div></center>'
+		.view('adminViews/services-add')	
+		.'<br><center><h1>Szolgáltatások</h1></center><br>'			
+		.view('adminViews/services', $data)
+		.view('templates/admin-end');
+	}
+	private function successfulCreate($model)
+	{
+		$data['services'] = $model->findAll();
+				
+		return view('templates/admin-begin')
+			. '<br><center><div class="alert alert-success alert-dismissible fade show w-25" role="alert">'
+			. '<h3><strong>Az új szolgáltatás rögzítésre került!</strong></h3>'
+			. '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
+			. '</div></center>'
+			.view('adminViews/services-add')	
+			.'<br><center><h1>Szolgáltatások</h1></center><br>'		
+			.view('adminViews/services', $data)
+			.view('templates/admin-end');
+	}
+	private function successfulDel($model)
+	{
+		$data['services'] = $model->findAll();
+		
+		return view('templates/admin-begin')		
+			.'<br><center><div class="alert alert-success alert-dismissible fade show w-25" role="alert">'
+			. '<h3><strong>Sikeres törlés!</strong></h3>'
+			. '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
+			. '</div></center>'
 			.'<br><center><h1>Szolgáltatások</h1></center><br>'	
 			.view('adminViews/services-add')		
 			.view('adminViews/services', $data)
 			.view('templates/admin-end');
-    }
+	}
 }
 
