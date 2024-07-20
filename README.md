@@ -1,7 +1,6 @@
 # Szépítészet
-=============
 
-Szeretném bemutatni az oldalam. Két fő részből áll. A Főoldal és az Admin oldal.
+Szeretném bemutatni az oldalam. Két fő részből áll. A **Főoldal** és az **Admin** oldal.
 
 ## Főoldal
 Van egyedi favicon-om
@@ -31,7 +30,7 @@ A header-ben a váltakozó kép, időpontfoglalási linkkel
 Még nincs megoldva a foglalás többi része, az időpont kiválasztás csak egy tömbből kerül meghívásra, nincs beállítva, hogy az adott szolgáltatás mennyi időt vesz igénybe, lehetnek ütközések
 
 ## Admin oldal
-/admin
+http://localhost/szepiteszet/public/admin
 Az oldal megtekintéséhez bejelentkezés szükséges:
 Felhasználónév: admin
 Jelszó: 12345
@@ -51,7 +50,7 @@ Egyedül a weboldalra tudunk átnavigáni bejelentkezés nélkül
     - Vissza is lehet vonni ezt az ikont, és ismét megválaszolatlan lesz az adott üzenet
     - Lehet szűrni az üzeneteket (összes/megválaszolatlan/megválaszolt)
 
-### Hiányosságok:
+#### Hiányosságok:
 - A szolgáltatások módosítása, vagy újabb hozzáadása után az adatbázisban frissül, de nem onnan töltődik be a foglalásnál a szolgáltatás kiválasztása, hanem az egy tömbből kerül beolvasásra.
 - A fentebb említett foglalás többi része, plusz hogy több szolgáltatást is lehessen választani egy foglalás alatt
 - Nem teljesen responsive-ek az oldalak
