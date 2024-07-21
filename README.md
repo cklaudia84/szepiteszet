@@ -33,7 +33,7 @@ Még nincs megoldva a foglalás többi része, az időpont kiválasztás csak eg
 http://localhost/szepiteszet/public/admin \
 Az oldal megtekintéséhez bejelentkezés szükséges: \
 Felhasználónév: *admin* \
-Jelszó: *12345* \
+Jelszó: *12345*
 
 A menü megjelenik (a Belépés és Kilépés cserélődik az aktuális állapotnak megfelelően) \
 A menüre kattintva vagy az URL-be írva az elérési útvonalat, csak a belépési felület látható, míg be nem lépünk \
