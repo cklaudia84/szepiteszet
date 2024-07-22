@@ -3,6 +3,7 @@
 Szeretném bemutatni az oldalam, mely két fő részből áll: **Főoldal** és **Admin** oldal.
 
 ## Főoldal
+http://localhost/szepiteszet/public \
 Van egyedi favicon-om \
 A header-ben van egy váltakozó kép, időpontfoglalási linkkel
 
